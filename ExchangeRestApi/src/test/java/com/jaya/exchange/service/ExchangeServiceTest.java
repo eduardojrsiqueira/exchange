@@ -161,7 +161,7 @@ public class ExchangeServiceTest {
 		Assert.assertNotNull(e.getValueTarget());
 		Assert.assertNotNull(e.getDateTimeOperation());
 		Assert.assertEquals(new BigDecimal(100), e.getValueTarget());
-		Assert.assertEquals(BigDecimal.TEN, e.getConvertTax());
+		Assert.assertEquals(BigDecimal.TEN, e.getRate());
 	}
 
 	private ExchangeOperation getCompleteEntity() {
@@ -171,7 +171,7 @@ public class ExchangeServiceTest {
 		e.setCurrencyTarget(CurrencyEnum.BRL);
 		e.setValueSource(BigDecimal.TEN);
 		e.setValueTarget(new BigDecimal(100));
-		e.setConvertTax(BigDecimal.TEN);
+		e.setRate(BigDecimal.TEN);
 		e.setDateTimeOperation(LocalDateTime.now());
 		e.setId(1L);
 		return e;

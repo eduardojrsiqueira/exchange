@@ -37,8 +37,8 @@ public class ExchangeOperation implements Serializable {
 	@Column(name = "VALUE_TARGET")
 	private BigDecimal valueTarget;
 	
-	@Column(name = "CONVERT_TAX")
-	private BigDecimal convertTax;
+	@Column(name = "EXCHANGE_RATE")
+	private BigDecimal rate;
 	
 	@Column(name = "DATE_TIME_OPERATION")
 	private LocalDateTime dateTimeOperation;
@@ -51,12 +51,12 @@ public class ExchangeOperation implements Serializable {
 		this.userId = userId;
 	}
 
-	public BigDecimal getConvertTax() {
-		return convertTax;
+	public BigDecimal getRate() {
+		return rate;
 	}
 
-	public void setConvertTax(BigDecimal convertTax) {
-		this.convertTax = convertTax;
+	public void setRate(BigDecimal rate) {
+		this.rate = rate;
 	}
 
 	public LocalDateTime getDateTimeOperation() {
