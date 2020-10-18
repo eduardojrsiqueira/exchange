@@ -1,4 +1,4 @@
-O projeto tem como objetivo ser um web service rest para realizar a conversão de valores entre as moedas BRL, USD, EUR e JPY. Para a criação do projeto foi usada a linguagem de programação JAVA juntamento com os frameworks Spring e JPA. O uso da linguagem e dos frameworks foi feito primeiramente pelo bom conhecimento do programador, mas também por fornecer algumas vantagens.
+O projeto tem como objetivo ser um web service rest para realizar a conversão de valores entre as moedas BRL, USD, EUR e JPY. Para a criação do projeto foi usada a linguagem de programação JAVA juntamento com os frameworks Spring e JPA. Importante dizer também o uso do Maven versão 3.6.3. O uso da linguagem e dos frameworks foi feito primeiramente pelo bom conhecimento do programador, mas também por fornecer algumas vantagens.
 
 No caso do JPA o uso foi para facilitar o acesso ao banco de dados. As entidades são mapeadas com o uso de anotações e todas as operações em banco já tem a criação da query facilitada. Caso alguma coluna seja criada por exemplo, basta apenas criar o novo atributo na classe anotada com @Entity e anotar o atributo com @Column passando o nome da coluna.
 
