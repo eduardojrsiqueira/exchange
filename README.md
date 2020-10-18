@@ -22,6 +22,7 @@ Como rodar a aplicação:
  
 Endpoints:
   A base da url do projeto quando o servidor estiver no ar no ambiente local é http://localhost:8080/ExchangeRestApi
+  
   1)Listagem de operações de um usuário
     http://localhost:8080/ExchangeRestApi/exchange/{chave}
     Chamada do tipo GET.
